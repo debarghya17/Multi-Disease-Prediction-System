@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Health Assistant", layout="wide", page_icon="🧑‍⚕️")
 
 # Loading the saved models
-base_path = r'C:\Computer Science Engineering\1. Important Projects\Multiple Disease Prediction system\saved models'
+base_path = os.path.join(os.getcwd(), 'saved models')
 diabetes_model = pickle.load(open(os.path.join(base_path, 'diabetes_model.sav'), 'rb'))
 heart_disease_model = pickle.load(open(os.path.join(base_path, 'heart_disease_model.sav'), 'rb'))
 parkinsons_model = pickle.load(open(os.path.join(base_path, 'parkinsons_model.sav'), 'rb'))
