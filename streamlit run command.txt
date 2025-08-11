@@ -1,0 +1,3 @@
+pip install streamlit streamlit-option-menu
+conda create -n disease_env python=3.10y
+streamlit run .\multiple_disease_pred.py
