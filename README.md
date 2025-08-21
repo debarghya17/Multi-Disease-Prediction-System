@@ -2,6 +2,9 @@
 
 **Multi-Disease Prediction System** is a Streamlit-based health assistant that uses machine learning to predict **diabetes**, **heart disease**, and **Parkinson’s** from user input. It provides an intuitive interface for real-time diagnosis using pre-trained models hosted directly in the app.
 
+<img width="2715" height="1122" alt="image" src="https://github.com/user-attachments/assets/fcc67e91-8883-41ec-bdb8-ee699e1b7b43" />
+
+
 ## 🚀 Features
 - Predicts three major diseases using ML models
 - Interactive forms for user input
